@@ -13,7 +13,7 @@ versions:
  
 {% data reusables.actions.enterprise-github-hosted-runners %}
 
-These extra logs are enabled by setting secrets{% ifversion actions-configuration-variables %} or variables{% endif %} in the repository containing the workflow, so the same permissions requirements will apply:
+These extra logs are enabled by setting secrets{% ifversion actions-configuration-variables %} or variables{% end if %} in the repository containing the workflow, so the same permissions requirements will apply:
 
 - {% data reusables.actions.permissions-statement-secrets-variables-repository %}
 - {% data reusables.actions.permissions-statement-secrets-environment %}
